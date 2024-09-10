@@ -1,0 +1,6 @@
+services:
+  fastai-devenv:
+    build: ../Dockerfile
+    volumes:
+      - ../:/usr/src/app:cached
+    command: sleep infinity

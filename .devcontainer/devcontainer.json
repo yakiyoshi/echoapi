@@ -1,0 +1,6 @@
+{
+  "name": "Python FastAPI  developer Environment",
+  "dockerComposeFile": "./compose.yaml",
+  "service": "fastai-devenv",
+  "workspaceFolder": "/usr/src/app"
+}
